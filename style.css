@@ -8,7 +8,7 @@ body{
 }
 /* banner-header section start here */
 .banner-container{
-    width:1320px;
+    max-width:1320px;
     min-height: 660px;
     margin: 0 auto;
     background-color: rgba(0, 0,0, 0.5);
@@ -22,11 +22,11 @@ body{
 
 }
 .banner-content{
-    display: flex;
-    flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 600px;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
      
 .banner-content p, h1{
@@ -40,4 +40,46 @@ height: 600px;
 .banner-container h1{
     font-size: 52px;
     font-weight: 700;
+}
+/* banner-header section ends here */
+.second-container{
+    width:802px;
+    height:806px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 90px;
+    
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+.second-section h1{
+    color: rgb(255, 0, 0);
+    font-size: 75px;
+    font-weight: 600px;
+    font-family: inter;
+}
+.second-section p{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500px;
+    font-family: inter;
+}
+.second-section h3{
+    color: rgb(7, 7, 17);
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: inter;
+}
+.images-pic{
+    height: 500px;
+    width: 800px;
+}
+.images-pic img{
+    width: 100%;
+    height: 100%;
 }
