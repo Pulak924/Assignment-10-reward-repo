@@ -2,3 +2,42 @@
 body{
     font-family: "Merriweather", serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner-header section start here */
+.banner-container{
+    width:1320px;
+    min-height: 660px;
+    margin: 0 auto;
+    background-color: rgba(0, 0,0, 0.5);
+    margin-top: 20px;
+    background-image: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 600px;
+}
+     
+.banner-content p, h1{
+    color: white;
+   
+}
+.banner-container p{
+    font-size: 30px;
+    font-weight: 500;
+}
+.banner-container h1{
+    font-size: 52px;
+    font-weight: 700;
+}
